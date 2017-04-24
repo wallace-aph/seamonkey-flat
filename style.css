@@ -1,0 +1,105 @@
+/* put whatever header info you need here, depending on where you put the CSS code
+   I personally prefer stylish, everything should work just like this as a new style */
+
+statusbar,statusbarpanel,statusbarpanel#statusbar-display{
+display: none !important;
+}
+
+tab[selected="true"] *{
+  background-color:#cccccc;
+  border:0px solid #aaa;
+  margin-top:4px;
+  
+}
+
+tab *{
+  font-family: Helvetica Neue;
+  background-color:#e2e2e2;
+  font-size:9pt;
+  margin-top:2px;
+  padding-top:-20px;
+  text-align: center!important;
+}
+
+window {
+  font-size: 3.5mm !important;
+  font-family: helvetica neue !important;
+}
+
+/* #urlbar .textbox-input-box{
+background: #ffffff !important;
+}*/
+
+#identity-box {
+background-color: #A9F4F4 !important;
+}
+
+#urlbar {
+background-color: #A9F4F4 !important;
+  box-shadow: 0px 0px 0px!important;
+  margin-left:-12px!important;
+}
+
+.tabs-bottom{
+  border-bottom: 0px solid;
+  -moz-border-bottom-colors: #d4d4d4;
+}
+
+.tabbrowser-tab {
+  background-color:#d4d2d4;
+  border: solid transparent;
+  border-width: -0 0px;
+  margin-top:-4px;
+   box-shadow: 0px 0px 0px!important;
+  -moz-appearance: none;
+}
+.tabs-stack{
+  margin-top: -5px;
+   box-shadow: 0px 0px 0px!important;
+}
+
+.tabs-closebutton {
+  display:none!important;
+}
+
+.tabs-newbutton {
+display:none!important;
+}
+
+.tabs-alltabs-button{
+  display:none!important;
+}
+.urlbar-security-level[level="high"] {
+  background-color:#ffffff!important;
+}
+
+#page-proxy-deck,
+#page-proxy-favicon,
+#page-proxy-button {
+  height: 16px;
+  opacity: 0;
+  margin-left:-15px!important;
+  pointer-events: none;
+}
+
+#feedsButton, #star-button, .autocomplete-history-dropmarker, .dropmarker-icon{
+  display:none!important;
+}
+
+.toolbar-grippy {
+  display:none!important;
+}
+
+hbox{
+  box-shadow: 0px 0px 0px black!important;
+  border: 0px solid black!important;
+}
+
+#back-button, #forward-button, #stop-button, #reload-button{
+  display:none!important;
+}
+
+#back-button{
+  padding-left:20px!important;
+  padding-right:10px!important;
+}
